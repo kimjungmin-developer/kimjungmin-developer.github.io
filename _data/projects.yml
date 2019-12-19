@@ -1,0 +1,48 @@
+- layout: left
+  name: 미니게임천국
+  link: https://github.com/OlBiMaCooJam/heaven-games/tree/develop
+  quote: 2019.11.26 ~ 현재
+  description: | # this will include new lines to allow paragraphs
+
+    * 요약: 한 웹사이트에서 윷놀이, 지뢰찾기, 마피아 등 다양한 게임 멀티플레이 게임 가능 (5인 팀프로젝트)
+    * 얻은 지식을 팀원들과 공유하기 위하여 Spring Restdocs 적용
+    * 1개 이상의 클라이언트가 어떻게 실시간으로 상호작용하는지 항상 궁금했는데 직접 게임을 시작할 수 있는 게임방을 만들어보면서 호기심 해소
+    * Http와 WebSocket을 같이 적용해보면서 네트워크 동작방식에 대한 공부
+    * 한 웹사이트에서 다양한 게임이 가능하게 설계하면서 확장에 열려있는 구조에 대해서 고민
+    * 윷놀이와 관련된 복잡한 규칙을 객체설계와 추상화로 해결
+    * 복잡하가고 능동적인 객체산 관계를 웹환경에서 만들어면서 웹기본기 익힘
+
+- layout: left
+  name: DI Framework 만들기
+  link: https://github.com/kimjungmin-developer/jwp-di/tree/step2
+  quote: 2019.10.30 ~ 2019.11.21
+  description: | # this will include new lines to allow paragraphs
+
+    * 요약: Spring의 DI 기능을 모방하여 의존주입 해주는 Framework 구현 (페어프로그래밍)
+    * Spring과 DI를 체계적으로 공부하기 위해서 그룹스터디 꾸림
+    * 그룹스터디에서 학습했던 전략패턴, 템플릿-콜팻에 흥미를 느껴 적극적으로 활용하여 이해도를 높임
+    * 다양한 객체의 의존관계를 맺는 행위를 추상화하여 가독성과 확작성 높임
+    * 사용자의 편의성을 위하여 재귀함수를 이용하여 순환참조 감지 구현
+    * 위 기능을 구현하면서 서비스의 품질은 개발자의 작은 정성이 모여 완성된다는 것을 배움
+    * 스프링에서 제공하는 기능을 최대한 자신만의 방식으로 구현하기 위해 고민
+    * 새로 배우는 개념을 잘적용하고 있는지 확인하기 위해서 최대한 많은 테스트케이스 추가
+    * 위에서 언급한 순환참조를 제대로 감지하는지 확인하는 테스트를 비롯해 복잡한 의존관계 주입 테스트 추가 사용자의 편의성을 위하여 생성자주입 가능하게 구현
+    * 테스트 케이스를 만들면서 미처 생각하지 못한 부분을 발견하면서 테스트코드의 유용성을 다시 한번 느낌
+    * 생성자주입을 가능하게 구현하면서 스프링이 마법같이 모든 걸 해주었던걸 직접 구현해보면서 원리를 파악
+    * 원리를 파악하니 실제 스프링을 썼을 때 DI Framework에 대한 이해도 증진
+
+- layout: left
+  name: YouTube 클로닝 프로젝트
+  link: https://github.com/everyone-driven-development/miniprojects-2019
+  quote: 2019.08.13 ~ 2019.09.04
+  description: | # this will include new lines to allow paragraphs
+
+    * 요약: SpringBoot를 이용하여 YouTube를 클로닝 (5인 팀프로젝트)
+    * 탄탄한 TestCase를 만드는제 집중함, 주간 총 113개의 TestCase, TestCoverage: class(100%), method(97%), line(97%)
+    * 처음 배운 인수테스트라는 개념을 자신의 것으로 만들기 위해서 많은 Controller 메소드에 인수테스트 적용
+    * 계속 실패하는 인수테스트가 발생했어도 포기하지 않고 여러시도를 해보면서 성공하게 만들어 팀에서 초기에 잡은 목표를 이루어냄
+    * Video, User, Subscription에 대한 CRUD 작업
+    * 처음 배운 jpa개념에 익숙해지기 위해 유저와 유저간의 구독관계를 jpa를 적극활용하여 mapping
+    * JPA의 FetchType Lazy를 사용해보면서 프록시패턴에 대해 학습
+    * Backend와 Frontend의 책임을 확실히 나누기 위해서 목표로 삼음
+    * Frontend 개발을 연습하기 위해서 json을 선택

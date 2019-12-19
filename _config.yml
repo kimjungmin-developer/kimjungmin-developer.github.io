@@ -1,0 +1,67 @@
+# Site
+repository: kimjungmin-developer/kimjungmin-developer.github.io
+# favicon: images/favicon.ico
+
+# Personal info
+name: 김정민
+title: Backend Developer 지망생
+email: kimjungmin.developer@gmail.com
+website: https://github.com/kimjungmin-developer
+
+
+# Social links
+# twitter_username: kimjungmin-developer
+github_username:  kimjungmin-developer
+# dribbble_username: kimjungmin-developer
+# facebook_username: kimjungmin-developer
+# flickr_username: kimjungmin-developer
+# linkedin_username: kimjungmin-developer
+# pinterest_username: kimjungmin-developer
+# youtube_username: kimjungmin-developer
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  깊게 학습하는 것을 좋아하는 개발자 지망생입니다. 
+
+  한번 배운 개념은 잊지않고 적극적으로 코드에 활용합니다.
+
+  우아한형제들에서 진행하는 우아한테크코스에서 웹프로그래밍, <mark>객체지향프로그래밍, TDD, ATDD</mark>를 학습했습니다.
+
+  객체를 만들 때 최대한 능동적이고 자율적인 객체를 만들기 위해 고민합니다.
+
+  <mark>페어프로그래밍</mark>, 팀프로젝트, 스터디 등 토론과 의견을 나누면서 개발하는 것을 좋아합니다.
+
+  <mark>탄탄한 테스트 코드</mark>를 짜는 것은 선택이 아니라 필수라고 믿습니다.
+  
+  테스트하기 쉬운 코드가 곧 좋은 코드라고 생각합니다.
+
+  문제에 직면했을 때 자신만의 해법을 찾으려고 노력합니다.
+
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
