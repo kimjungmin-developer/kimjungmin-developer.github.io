@@ -1,10 +1,10 @@
 - layout: left
   name: 미니게임천국
-  link: https://github.com/kimjungmin-developer/heaven-games-tmp2
+  link: https://github.com/kimjungmin-developer/heaven-games-tmp2/tree/feat/yutnori-pull/src/main/java/com/olbimacoojam/heaven/yutnori
   quote: 2019.11.26 ~ 현재
   description: | # this will include new lines to allow paragraphs
 
-    * 요약: 한 웹사이트에서 윷놀이, 지뢰찾기, 마피아 등 다양한 게임 멀티플레이 게임 가능 (5인 팀프로젝트)
+    * 요약: 한 웹사이트에서 윷놀이, 지뢰찾기, 마피아 등 다양한 게임 멀티플레이 게임 가능 (5인 팀프로젝트, 개발진행 중)
     * 얻은 지식을 팀원들과 공유하기 위하여 Spring Restdocs 적용
     * 1개 이상의 클라이언트가 어떻게 실시간으로 상호작용하는지 항상 궁금했는데 직접 게임을 시작할 수 있는 게임방을 만들어보면서 호기심 해소
     * Http와 WebSocket을 같이 적용해보면서 네트워크 동작방식에 대한 공부
@@ -38,7 +38,7 @@
   description: | # this will include new lines to allow paragraphs
 
     * 요약: SpringBoot를 이용하여 YouTube를 클로닝 (5인 팀프로젝트)
-    * 탄탄한 TestCase를 만드는데 집중함, 주간 총 113개의 TestCase, TestCoverage: class(100%), method(97%), line(97%)
+    * 탄탄한 TestCase를 만드는데 집중함, 3주간 총 113개의 TestCase, TestCoverage: class(100%), method(97%), line(97%)
     * 처음 배운 인수테스트라는 개념을 자신의 것으로 만들기 위해서 많은 Controller 메소드에 인수테스트 적용
     * 계속 실패하는 인수테스트가 발생했어도 포기하지 않고 여러 시도를 해보면서 성공하게 만들어 팀에서 초기에 잡은 목표를 이루어냄
     * Video, User, Subscription에 대한 CRUD 작업
